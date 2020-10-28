@@ -1,6 +1,6 @@
 'use strict'
 
-/*var userName = prompt('What is your name please?');
+var userName = prompt('What is your name please?');
 alert('Welcome to my site ' + userName);
 
     var workStatus = prompt('Are you currently working?');
