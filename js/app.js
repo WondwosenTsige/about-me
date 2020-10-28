@@ -1,6 +1,6 @@
 'use strict'
 
-var userName = prompt('What is your name please?');
+/*var userName = prompt('What is your name please?');
 alert('Welcome to my site ' + userName);
 
     var workStatus = prompt('Are you currently working?');
@@ -11,29 +11,29 @@ alert('Welcome to my site ' + userName);
         alert('Me too '+userName+ ' . I hope we will be software developers soon');
     }
 
-        var takeVacation = prompt('Do you think I will go some where for vacation b/n code-301 and code-401?')
+            var takeVacation = prompt('Do you think I will go some where for vacation b/n code-301 and code-401?')
 
-        if(takeVacation.toLowerCase() === 'yes'){
-            alert('Nice guess! I am planning to');
-        } else {
-            alert('No! you get this wrong. Let us proceed to my next question');
-        }
-
-            var swimAbility =prompt('Can you swim?');
-
-            if(swimAbility.toUpperCase() === 'YES'){
-                alert('Great! may be you will teach me in the future');
+            if(takeVacation.toLowerCase() === 'yes'){
+                alert('Nice guess! I am planning to');
             } else {
-                alert('Oh! Just like me. I am thinking to learn swimming soon');
+                alert('No! you get this wrong. Let us proceed to my next question');
             }
 
-        var swimAbility =prompt('Can you swim?');
+                        var swimAbility =prompt('Can you swim?');
 
-        if(swimAbility.toUpperCase() === 'YES'){
-            alert('Great! may be you will teach me in the future');
-        } else {
-            alert('Oh! Just like me. I am thinking to learn swimming soon');
-        }
+                        if(swimAbility.toUpperCase() === 'YES'){
+                            alert('Great! may be you will teach me in the future');
+                        } else {
+                            alert('Oh! Just like me. I am thinking to learn swimming soon');
+                        }
+
+                var LikeFootball =prompt('Do you think that I like football?');
+
+                if(LikeFootball.toUpperCase() === 'YES'){
+                    alert('Good job! I am a die hard Liverpool fun');
+                } else {
+                    alert('No no no!!!! Liverpool is my team and "You will never walk alone" is our anthem');
+                }
 
     var myAge= prompt('How old do you think i am ' +userName+'?')
 
