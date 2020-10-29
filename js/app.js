@@ -92,32 +92,35 @@ youSwim();
 footballFan();
 rateMyGame();
 
-var favoriteNumber = 7;
+function myFavoriteNumber(){
+    var favoriteNumber = 7;
 
-for (var i=0; i<6; i++){
-    var userGuess= parseInt(prompt('Please guess my favorite number?'));
+    for (var i=0; i<6; i++){
+        var userGuess= parseInt(prompt('Please guess my favorite number?'));
 
- if(userGuess === favoriteNumber){
-        alert('Wow! you got it right '+userName+ ' One more qestion left');
-        break;
-        rightAnswerCounter++;
+        if(userGuess === favoriteNumber){
+            alert('Wow! you got it right '+userName+ ' One more qestion left');
+            break;
+            rightAnswerCounter++;
 
-} else if (i===5 &&(userGuess) !== favoriteNumber){
-    alert ('you are out of guesses favorite number was '+ favoriteNumber);
+        } else if (i===5 &&(userGuess) !== favoriteNumber){
+            alert ('you are out of guesses favorite number was '+ favoriteNumber);
 
-} else if (userGuess > favoriteNumber) {
-    //console.log('Sorry '+userName+ 'I will try to make it better next time. see you!');
-    alert('Sorry '+userName+ 'your guess is higher. Try to guess a lower nymber');
+        } else if (userGuess > favoriteNumber) {
+            //console.log('Sorry '+userName+ 'I will try to make it better next time. see you!');
+            alert('Sorry '+userName+ 'your guess is higher. Try to guess a lower nymber');
 
-}  else if(userGuess < favoriteNumber){
-    //console.log ('Please answer yes or no')
-    alert ('your guess is lower. Try to guess a higher nymber');
+        }  else if(userGuess < favoriteNumber){
+            //console.log ('Please answer yes or no')
+            alert ('your guess is lower. Try to guess a higher nymber');
 
-} else {
-    alert ('try again');
+        } else {
+            alert ('try again');
+        }
+
+    }
 }
-
-}
+myFavoriteNumber();
 
 // var favoritePlacesToVisit = ['Colosseum', 'Rock-Hewn Churches of Lalibela', 'Eiffel Tower', 'Taj Mahal', 'Alcatraz Island', 'The Obelisk of Axum'];
 // var guessPlacesToVisit = prompt ('can you guess one of the places I really want to visit?');
