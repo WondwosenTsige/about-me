@@ -8,3 +8,8 @@ text-align: center;
 color: blue;
 }
 
+ol{
+  margin: 50px;
+  list-style-type: decimal;
+  
+}
