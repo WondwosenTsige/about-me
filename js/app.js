@@ -134,8 +134,8 @@ function myFavoritePlace() {
             }
         }
         if (rightAnswer === false) {
-            alert('Wrong')
-            guessPlacesToVisit = prompt('Sorry you are wrong. Please try again');
+            alert('No! that is not right')
+            guessPlacesToVisit = prompt('Please try again');
         }
     }
 }
