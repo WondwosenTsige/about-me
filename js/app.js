@@ -139,6 +139,7 @@ function myFavoritePlace() {
         }
     }
 }
+
     areYouWorking();
     vacation();
     youSwim();
@@ -146,5 +147,7 @@ function myFavoritePlace() {
     rateMyGame();
     myFavoriteNumber();
     myFavoritePlace();
+
+    alert ('You answered '+rightAnswerCounter+ 'correctly' )
 
 

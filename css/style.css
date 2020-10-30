@@ -8,8 +8,25 @@ text-align: center;
 color: blue;
 }
 
+#edu-and-ex{
+text-align: right;
+}
+
+
 ol{
   margin: 50px;
   list-style-type: decimal;
   
+}
+
+*{
+  width: 1800px;
+  border: 10px solid #706664;
+  margin: 20px;
+}
+
+#mypic{
+  display: block;
+  float: left;
+  width: 10%;
 }
